@@ -146,7 +146,7 @@
   <joint name="joint_6" type="prismatic">
     <parent link="link_5"/>
     <child link="link_6"/>
-    <origin rpy="0  0  0" xyz="1       0      -0.6"/>
+    <origin rpy="0  0  0" xyz="1       0      -0.5"/>
     <axis xyz="0 0 -1"/>
     <limit effort="100" lower="-2" upper="2" velocity="-1.0"/>
   </joint>
